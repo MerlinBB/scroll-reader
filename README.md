@@ -1,10 +1,10 @@
-#Protocol Viewer
+#Scroll Reader
 
 Searches though a document of text and dyanmically creates a smooth scroll menu for it.
 
 ##Usage
 
-    $("#my-document").protocol();
+    $("#my-document").scrollReader();
 
 ##Options
 
@@ -25,7 +25,7 @@ Optional integer stating the amount of pixels to stop scrolling before the headi
 
 ##Example
 
-    $("#protocol").protocol({
+    $("#my-document").scrollReader({
         menu: "#my-menu",
         speed: 400,
         tags: ".chapter, h1, h2, h3, h4, h5, h6, strong",
