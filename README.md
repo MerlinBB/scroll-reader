@@ -2,6 +2,8 @@
 
 Searches though a document of text and dyanmically creates a smooth scroll menu for it.
 
+Vew the <a href="http://merlinbb.github.io/scroll-reader/demo/" target="_blank">demo</a>.
+
 ##Usage
 
     $("#my-document").scrollReader();
