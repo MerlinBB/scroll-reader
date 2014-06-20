@@ -1,0 +1,36 @@
+@charset 'UTF-8';
+body {
+    font-family:sans-serif;
+    color:#444;
+    line-height:1.2;
+    padding-bottom:500px;
+}
+.cf:before,
+.cf:after {
+    content:" ";
+    display:table;
+}
+.cf:after { clear:both; }
+* { box-sizing:border-box; }
+#my-document {
+    padding:0 220px 0 40px;
+}
+#my-menu {
+    width:200px;
+    padding:10px;
+    background:#ccc;
+    position:fixed;
+    right:20px;
+    top:20px;
+    bottom:20px;
+    overflow-y:scroll;
+}
+#my-menu a {
+    display:block;
+    padding:5px 0;
+    text-decoration:none;
+    color:#666;
+}
+#my-menu a + a {
+    border-top:1px solid #ddd;
+}
